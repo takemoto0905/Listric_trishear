@@ -6,6 +6,8 @@ ps=1:0.2:5;
 phi=0:2:28;
 xo=10:50:1000;
 
+time_steps=200;
+
 [P1 P2 P3 P4 P5 P6]=ndgrid(a, b, displacement, ps, phi, xo);
 param_comb=[P1(:) P2(:) P3(:) P4(:) P5(:) P6(:)];
 
