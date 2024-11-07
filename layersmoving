@@ -1,4 +1,4 @@
-%input a,b,displacement, phi, ps, xo,
+%input a,b,displacement, ps, phi, xo,
 
 yo=xo*tan(pi/2-ramp);
 R=norm([xo,yo]);
