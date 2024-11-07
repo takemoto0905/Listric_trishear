@@ -9,4 +9,12 @@ xo=10:50:1000;
 [P1 P2 P3 P4 P5 P6]=ndgrid(a, b, displacement, ps, phi, xo);
 param_comb=[P1(:) P2(:) P3(:) P4(:) P5(:) P6(:)];
 
+load 'observed1.txt';
+X=observed1(:,1);
+Y=observed1(:,2);
+RA=observed1(:,3);
+observed_points=[X,Y];
+
+best_score=inf;
+best_param=zeros(1,6);
 
