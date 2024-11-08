@@ -1,5 +1,6 @@
 %input a,b,displacement, ps, phi, xo,
 
+ramp=29*pi/180;
 yo=xo*tan(pi/2-ramp);
 R=norm([xo,yo]);
 xf=xo-R*sin(phi);
